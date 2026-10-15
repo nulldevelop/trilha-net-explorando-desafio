@@ -1,15 +1,10 @@
 namespace DesafioProjetoHospedagem.Models
 {
-    public class Reserva
+    public class Reserva(int diasReservados)
     {
         public List<Pessoa> Hospedes { get; set; }
         public Suite Suite { get; set; }
-        public int DiasReservados { get; set; }
-
-        public Reserva(int diasReservados)
-        {
-            DiasReservados = diasReservados;
-        }
+        public int DiasReservados { get; set; } = diasReservados;
 
         public void CadastrarHospedes(List<Pessoa> hospedes)
         {

@@ -10,7 +10,7 @@ Console.OutputEncoding = Encoding.UTF8;
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 
 // Lista de hóspedes
-List<Pessoa> hospedes = new List<Pessoa>();
+List<Pessoa> hospedes = [];
 
 Console.WriteLine("=== Cadastro de Hóspedes ===");
 
